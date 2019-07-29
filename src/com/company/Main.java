@@ -14,5 +14,9 @@ public class Main {
         System.out.println(arr);
         arr.addFist(60);
         System.out.println(arr);
+        arr.remove(5);
+        System.out.println(arr);
+        arr.removeFirst();
+        System.out.println(arr);
     }
 }
