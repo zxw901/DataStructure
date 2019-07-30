@@ -1,7 +1,5 @@
 package com.company.Array;
 
-import org.omg.CORBA.Object;
-
 public class Array<E> {
 
     private E[] data;
@@ -65,10 +63,11 @@ public class Array<E> {
         return data[index];
     }
 
-    public E getLast(){
-        return get(size-1);
+    public E getLast() {
+        return get(size - 1);
     }
-    public E getFirst(){
+
+    public E getFirst() {
         return get(0);
     }
 
@@ -108,7 +107,7 @@ public class Array<E> {
         size--;
         data[size] = null;
 
-        if (size < data.length / 4 || data.length / 2 != 0) {
+        if (size > 20 && size == data.length / 4 && data.length / 2 != 0) {
             resize(data.length / 2);
         }
         return tmp;

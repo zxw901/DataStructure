@@ -45,7 +45,7 @@ public class ArrayStack<E> implements Stack<E> {
     @Override
     public String toString() {
         StringBuffer sb = new StringBuffer();
-        sb.append("Stack: [");
+        sb.append(String.format("Stack Capacity:%d [",getCapacity()));
         for (int i = 0; i < array.getSize(); i++) {
             sb.append(array.get(i));
             if (i != array.getSize() - 1) {

@@ -1,6 +1,4 @@
-package com.company;
-
-import com.company.Array.Array;
+package com.company.Array;
 
 public class Main {
 
