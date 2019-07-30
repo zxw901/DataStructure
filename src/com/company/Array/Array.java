@@ -16,6 +16,18 @@ public class Array<E> {
         this(20);
     }
 
+    public int getCapacity() {
+        return data.length;
+    }
+
+    public int getSize() {
+        return size;
+    }
+
+    public boolean isEmpty() {
+        return size == 0;
+    }
+
     public void addLast(E e) {
         addIndex(size, e);
     }
@@ -51,6 +63,13 @@ public class Array<E> {
             throw new IllegalArgumentException("Get failed.Index is illegal");
         }
         return data[index];
+    }
+
+    public E getLast(){
+        return get(size-1);
+    }
+    public E getFirst(){
+        return get(0);
     }
 
     public void set(int index, E e) {
