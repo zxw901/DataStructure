@@ -1,6 +1,6 @@
-package com.company.stack_and_queue;
+package com.company.ch02_stack_and_queue;
 
-import com.company.Array.Array;
+import com.company.ch01_Array.Array;
 
 public class ArrayQueue<E> implements Queue<E>{
     Array<E> queue;

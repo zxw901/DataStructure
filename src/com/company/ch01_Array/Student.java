@@ -1,4 +1,4 @@
-package com.company.Array;
+package com.company.ch01_Array;
 
 public class Student {
     private String name;

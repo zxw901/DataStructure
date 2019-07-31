@@ -1,4 +1,4 @@
-package com.company.stack_and_queue;
+package com.company.ch02_stack_and_queue;
 
 public interface Stack<E> {
     void push(E e);
