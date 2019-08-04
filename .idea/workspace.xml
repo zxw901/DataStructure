@@ -2,25 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2961e976-e73d-4fd8-a4fa-2ac00be41efd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/ch02_stack_and_queue/LinkedQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ch02_stack_and_queue/LinkedStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ch03_linkedList/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ch03_linkedList/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ch04_listAndRecursion/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ch04_listAndRecursion/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ch04_listAndRecursion/Solution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ch04_listAndRecursion/Solution3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ch04_listAndRecursion/Solution4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ch05_BST/BST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/com/company/Array/Array.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/com/company/Array/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Array/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ch01_Array/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Array/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ch01_Array/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Array/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ch01_Array/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/stack_and_queue/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ch02_stack_and_queue/ArrayQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/stack_and_queue/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ch02_stack_and_queue/ArrayStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/stack_and_queue/LoopQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ch02_stack_and_queue/LoopQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/stack_and_queue/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ch02_stack_and_queue/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/stack_and_queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ch02_stack_and_queue/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/stack_and_queue/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ch02_stack_and_queue/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/stack_and_queue/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ch02_stack_and_queue/Stack.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,12 +30,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
-  </component>
   <component name="ProjectId" id="1OfiADUsDk3l7ZiKWjuQqeii7p0" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -60,7 +42,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/学习之路/玩转数据结构 从入门到进阶/源码/Play-with-Data-Structures-master" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -84,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Solution4">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.ch03_linkedList.Main" />
       <module name="DataStructure" />
@@ -111,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.ch02_stack_and_queue.Main" />
+    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.ch04_listAndRecursion.Solution2" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.ch02_stack_and_queue.*" />
+          <option name="PATTERN" value="com.company.ch04_listAndRecursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,25 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.ch02_stack_and_queue.Solution" />
+    <configuration name="Solution4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.ch04_listAndRecursion.Solution4" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.ch02_stack_and_queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.ch01_Array.Student" />
-      <module name="DataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.ch01_Array.*" />
+          <option name="PATTERN" value="com.company.ch04_listAndRecursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution4" />
+        <item itemvalue="Application.Solution2" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="JUnit.LinkedQueue.test" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +164,10 @@
       <workItem from="1564562347769" duration="96000" />
       <workItem from="1564562751721" duration="50000" />
       <workItem from="1564563242692" duration="187000" />
-      <workItem from="1564564868128" duration="8568000" />
+      <workItem from="1564564868128" duration="9475000" />
+      <workItem from="1564824066876" duration="6261000" />
+      <workItem from="1564891019965" duration="10203000" />
+      <workItem from="1564926964109" duration="219000" />
     </task>
     <task id="LOCAL-00001" summary="完成第三章栈和队列">
       <created>1564495857299</created>
@@ -204,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564495857299</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="完成第四章列表">
+      <created>1564576321997</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564576321997</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,7 +218,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="完成第三章栈和队列" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成第三章栈和队列" />
+    <MESSAGE value="完成第四章列表" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成第四章列表" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
