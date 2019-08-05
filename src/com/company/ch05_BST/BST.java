@@ -127,84 +127,121 @@ public class BST<E extends Comparable<E>> {
     }
 
     //层序遍历
-    public void levelOrder(){
-        Queue<Node> queue=new LinkedList<>();
+    public void levelOrder() {
+        Queue<Node> queue = new LinkedList<>();
         queue.add(root);
-        while(!queue.isEmpty()){
-            Node cur=queue.remove();
+        while (!queue.isEmpty()) {
+            Node cur = queue.remove();
             System.out.println(cur.e);
-            if(cur.left!=null)
+            if (cur.left != null)
                 queue.add(cur.left);
-            if(cur.right!=null)
+            if (cur.right != null)
                 queue.add(cur.right);
         }
     }
 
     //寻找二分搜索树的最小元素
-    public E minimum(){
-        if(size==0){
+    public E minimum() {
+        if (size == 0) {
             throw new IllegalArgumentException("BST is empty!");
         }
         return minimum(root).e;
     }
 
     private Node minimum(Node node) {
-        if(node.left==null){
+        if (node.left == null) {
             return node;
         }
         return minimum(node.left);
     }
 
     //寻找二分搜索树的最小元素
-    public E maximum(){
-        if(size==0){
+    public E maximum() {
+        if (size == 0) {
             throw new IllegalArgumentException("BST is empty!");
         }
         return maximum(root).e;
     }
 
     private Node maximum(Node node) {
-        if(node.right==null){
+        if (node.right == null) {
             return node;
         }
         return maximum(node.right);
     }
 
     //删除树中的最小值
-    public E removeMin(){
-        E ret=minimum();
+    public E removeMin() {
+        E ret = minimum();
         root = removeMin(root);
         return ret;
     }
 
     private Node removeMin(Node node) {
-        if(node.left==null){
-            Node rightNode=node.right;
-            node.right=null;
+        if (node.left == null) {
+            Node rightNode = node.right;
+            node.right = null;
             size--;
             return rightNode;
         }
-        node.left=removeMin(node.left);
+        node.left = removeMin(node.left);
         return node;
     }
 
     //删除树中的最大值
-    public E removeMax(){
-        E res=removeMax();
-        root=removeMax(root);
+    public E removeMax() {
+        E res = removeMax();
+        root = removeMax(root);
         return res;
     }
 
     private Node removeMax(Node node) {
-        if(node.right==null){
-            Node leftNode=node.left;
-            node.left=null;
+        if (node.right == null) {
+            Node leftNode = node.left;
+            node.left = null;
             size--;
             return leftNode;
         }
-
-        node.right=removeMax(node.right);
+        node.right = removeMax(node.right);
         return node;
+    }
+
+
+    public void remove(E e) {
+        root = remove(root, e);
+    }
+
+    private Node remove(Node node, E e) {
+        if (node == null)
+            return null;
+
+        if (e.compareTo(node.e) < 0) {
+            node.left = remove(node.left, e);
+            return node;
+        } else if (e.compareTo(node.e) > 0) {
+            node.right = remove(node.right, e);
+            return node;
+        } else {
+            if (node.left == null) {
+                Node rightNode = node.right;
+                node.right = null;
+                size--;
+                return rightNode;
+            }
+
+            if (node.right == null) {
+                Node leftNode = node.left;
+                node.left = null;
+                size--;
+                return leftNode;
+            }
+            //必须先赋右节点，再赋左节点
+            Node successor = minimum(node.right);
+            successor.right = removeMin(node.right);        //removeMin函数中已经 size 减一了
+            successor.left = node.left;
+            node.left = node.right = null;
+            return successor;
+        }
     }
 
 
