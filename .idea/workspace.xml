@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2961e976-e73d-4fd8-a4fa-2ac00be41efd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/ch06_Set_and_Map/BSTMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ch06_Set_and_Map/BSTSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ch06_Set_and_Map/FileOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ch06_Set_and_Map/LinkedListMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ch06_Set_and_Map/LinkedListSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ch06_Set_and_Map/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ch06_Set_and_Map/Map.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ch06_Set_and_Map/Set.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ch06_Set_and_Map/Solution349.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ch06_Set_and_Map/Solution350.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ch06_Set_and_Map/Solution804.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ch06_Set_and_Map/a-tale-of-two-cities.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ch06_Set_and_Map/pride-and-prejudice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ch07_Heap_and_PriorityQueue/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ch07_Heap_and_PriorityQueue/MaxHeap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ch01_Array/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ch01_Array/Array.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +89,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.ch06_Set_and_Map.Main" />
       <module name="DataStructure" />
@@ -113,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.ch02_stack_and_queue.Main" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.ch07_Heap_and_PriorityQueue.Main" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.ch02_stack_and_queue.*" />
+          <option name="PATTERN" value="com.company.ch07_Heap_and_PriorityQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Solution4" />
         <item itemvalue="Application.Solution2" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +203,7 @@
       <workItem from="1564926964109" duration="273000" />
       <workItem from="1564968908446" duration="15121000" />
       <workItem from="1565056223644" duration="15128000" />
-      <workItem from="1565144994507" duration="7425000" />
+      <workItem from="1565144994507" duration="13043000" />
     </task>
     <task id="LOCAL-00001" summary="完成第三章栈和队列">
       <created>1564495857299</created>
@@ -250,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564995083149</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="完成第六章">
+      <created>1565163168449</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1565163168449</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +285,8 @@
     <MESSAGE value="完成第四章列表" />
     <MESSAGE value="第六章未完待续" />
     <MESSAGE value="完成第五章" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成第五章" />
+    <MESSAGE value="完成第六章" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成第六章" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
