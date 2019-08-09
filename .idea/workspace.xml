@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2961e976-e73d-4fd8-a4fa-2ac00be41efd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/ch07_Heap_and_PriorityQueue/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ch07_Heap_and_PriorityQueue/MaxHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ch07_Heap_and_PriorityQueue/PriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ch07_Heap_and_PriorityQueue/Solution347.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ch07_Heap_and_PriorityQueue/Solution347_with_built_in.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/ch01_Array/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ch01_Array/Array.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +89,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Solution347_with_built_in">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.ch06_Set_and_Map.Main" />
       <module name="DataStructure" />
@@ -142,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.ch04_listAndRecursion.Solution2" />
+    <configuration name="Solution347" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.ch07_Heap_and_PriorityQueue.Solution347" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.ch04_listAndRecursion.*" />
+          <option name="PATTERN" value="com.company.ch07_Heap_and_PriorityQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.ch04_listAndRecursion.Solution4" />
+    <configuration name="Solution347_with_built_in" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.ch07_Heap_and_PriorityQueue.Solution347_with_built_in" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.ch04_listAndRecursion.*" />
+          <option name="PATTERN" value="com.company.ch07_Heap_and_PriorityQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution347_with_built_in" />
+        <item itemvalue="Application.Solution347" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Solution4" />
-        <item itemvalue="Application.Solution2" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +203,8 @@
       <workItem from="1564926964109" duration="273000" />
       <workItem from="1564968908446" duration="15121000" />
       <workItem from="1565056223644" duration="15128000" />
-      <workItem from="1565144994507" duration="13043000" />
+      <workItem from="1565144994507" duration="13092000" />
+      <workItem from="1565229751439" duration="5619000" />
     </task>
     <task id="LOCAL-00001" summary="完成第三章栈和队列">
       <created>1564495857299</created>
@@ -247,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565163168449</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="第七章未完待续">
+      <created>1565189310132</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1565189310132</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,7 +294,8 @@
     <MESSAGE value="第六章未完待续" />
     <MESSAGE value="完成第五章" />
     <MESSAGE value="完成第六章" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成第六章" />
+    <MESSAGE value="第七章未完待续" />
+    <option name="LAST_COMMIT_MESSAGE" value="第七章未完待续" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
