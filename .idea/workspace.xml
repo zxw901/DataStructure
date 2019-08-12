@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2961e976-e73d-4fd8-a4fa-2ac00be41efd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pride-and-prejudice.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ch08_SegmentTree/Solution303.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ch09_Trie/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ch09_Trie/MapSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ch09_Trie/Trie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ch09_Trie/TrieSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ch09_Trie/WordDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ch10_UnionFind/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ch10_UnionFind/UF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ch10_UnionFind/UnionFind1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ch10_UnionFind/UnionFind2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ch10_UnionFind/UnionFind3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ch10_UnionFind/UnionFind4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ch10_UnionFind/UnionFind5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ch10_UnionFind/UnionFind6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/ch08_SegmentTree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ch08_SegmentTree/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/ch08_SegmentTree/SegmentTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ch08_SegmentTree/SegmentTree.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +94,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.ch08_SegmentTree.Main" />
       <module name="DataStructure" />
@@ -109,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.ch07_Heap_and_PriorityQueue.Main" />
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.ch09_Trie.Main" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.ch07_Heap_and_PriorityQueue.*" />
+          <option name="PATTERN" value="com.company.ch09_Trie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.ch09_Trie.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.ch10_UnionFind.Main" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.ch09_Trie.*" />
+          <option name="PATTERN" value="com.company.ch10_UnionFind.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Solution347_with_built_in" />
         <item itemvalue="Application.Solution347" />
-        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +198,8 @@
       <workItem from="1565144994507" duration="13092000" />
       <workItem from="1565229751439" duration="5619000" />
       <workItem from="1565326831753" duration="2806000" />
-      <workItem from="1565337439373" duration="18769000" />
+      <workItem from="1565337439373" duration="18930000" />
+      <workItem from="1565576052569" duration="5990000" />
     </task>
     <task id="LOCAL-00001" summary="完成第三章栈和队列">
       <created>1564495857299</created>
@@ -250,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565189310132</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="第九章完成">
+      <created>1565445824156</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1565445824156</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,6 +297,7 @@
     <MESSAGE value="完成第五章" />
     <MESSAGE value="完成第六章" />
     <MESSAGE value="第七章未完待续" />
-    <option name="LAST_COMMIT_MESSAGE" value="第七章未完待续" />
+    <MESSAGE value="第九章完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="第九章完成" />
   </component>
 </project>
