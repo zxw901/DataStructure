@@ -1,10 +1,13 @@
 package com.company.ch06_Set_and_Map;
 
 import com.company.ch03_linkedList.LinkedList;
+import com.company.ch05_BST.BST;
 import com.company.ch11_AVLTree.AVLTree;
 
 import java.sql.SQLOutput;
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.function.DoubleToIntFunction;
 
 public class Main {
@@ -110,11 +113,11 @@ public class Main {
 
     public static void testBSTMap(){
         System.out.println("Pride and Prejudice");
-
+        long startTime=System.nanoTime();
         ArrayList<String> words=new ArrayList<>();
         if(FileOperation.readFile("src/com/company/ch06_Set_and_Map/pride-and-prejudice.txt",words)){
             System.out.println("Total words: "+words.size());
-
+            Collections.sort(words);
             BSTMap<String,Integer> map=new BSTMap<>();
             for (String word : words) {
                 if(map.contains(word))
@@ -122,10 +125,12 @@ public class Main {
                 else
                     map.add(word,1);
             }
-
+            long endTime=System.nanoTime();
+            double time=(endTime-startTime)/1000000000.0;
             System.out.println("Total different words: "+map.getSize());
             System.out.println("Frequency of PRIDE: "+map.get("pride"));
             System.out.println("Frequency of PREJUDICE: "+map.get("prejudice"));
+            System.out.println("BST: "+time+" s");
         }
     }
 
@@ -136,6 +141,7 @@ public class Main {
 //        FileOperation.readFile("src/com/company/ch06_Set_and_Map/pride-and-prejudice.txt", words1);
         FileOperation.readFile(filename,words);
         System.out.println("Total words: " + words.size());
+        Collections.sort(words);
 
         for (String word : words) {
             if(avl.contains(word))
@@ -147,6 +153,8 @@ public class Main {
         System.out.println("isBST : "+avl.isBST());
         System.out.println("isBalanced : "+avl.isBalanced());
         long endTime= System.nanoTime();
+        double time=(endTime-startTime)/1000000000.0;
+        System.out.println("AVL: "+time+" s");
         return (endTime-startTime)/1000000000.0;
     }
 
@@ -193,6 +201,7 @@ public class Main {
 //        testBSTMapAndLinkedMap();
         AVLTree<String,Integer> avl=new AVLTree<String,Integer>();
         testAVL(avl,"pride-and-prejudice.txt");
+        testBSTMap();
 
     }
 

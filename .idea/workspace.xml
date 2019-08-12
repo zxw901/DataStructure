@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2961e976-e73d-4fd8-a4fa-2ac00be41efd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/ch11_AVLTree/AVLTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/ch05_BST/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ch05_BST/BST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/ch06_Set_and_Map/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ch06_Set_and_Map/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ch11_AVLTree/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ch11_AVLTree/AVLTree.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -195,6 +194,7 @@
       <workItem from="1565326831753" duration="2806000" />
       <workItem from="1565337439373" duration="18930000" />
       <workItem from="1565576052569" duration="19178000" />
+      <workItem from="1565621847564" duration="2067000" />
     </task>
     <task id="LOCAL-00001" summary="完成第三章栈和队列">
       <created>1564495857299</created>
