@@ -1,8 +1,5 @@
 package com.company.ch05_BST;
 
-
-import com.company.ch02_stack_and_queue.LinkedQueue;
-
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;

@@ -1,7 +1,9 @@
 package com.company.ch06_Set_and_Map;
 
 import com.company.ch03_linkedList.LinkedList;
+import com.company.ch11_AVLTree.AVLTree;
 
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.function.DoubleToIntFunction;
 
@@ -127,6 +129,26 @@ public class Main {
         }
     }
 
+    public static double testAVL(AVLTree<String,Integer> avl,String filename){
+        long startTime=System.nanoTime();
+        System.out.println(filename);
+        ArrayList<String> words = new ArrayList<>();
+//        FileOperation.readFile("src/com/company/ch06_Set_and_Map/pride-and-prejudice.txt", words1);
+        FileOperation.readFile(filename,words);
+        System.out.println("Total words: " + words.size());
+
+        for (String word : words) {
+            if(avl.contains(word))
+                avl.set(word,avl.get(word)+1);
+            else
+                avl.add(word,1);
+        }
+        System.out.println("Total different words: " + avl.getSize());
+        System.out.println("isBST : "+avl.isBST());
+        System.out.println("isBalanced : "+avl.isBalanced());
+        long endTime= System.nanoTime();
+        return (endTime-startTime)/1000000000.0;
+    }
 
     public static double testMap(Map<String,Integer> map,String filename){
         long startTime=System.nanoTime();
@@ -161,13 +183,17 @@ public class Main {
         double time2=testMap(linkedListSet,filename);
         System.out.println("Linked List Map: "+ time2+" s");
     }
+
     public static void main(String[] args) {
 //        testBSTSet();
 //        testLinkedListSet();
 //        testBSTSetAndLinkedSet();
 //        testLinkedMap();
 //        testBSTMap();
-        testBSTMapAndLinkedMap();
+//        testBSTMapAndLinkedMap();
+        AVLTree<String,Integer> avl=new AVLTree<String,Integer>();
+        testAVL(avl,"pride-and-prejudice.txt");
+
     }
 
 }
