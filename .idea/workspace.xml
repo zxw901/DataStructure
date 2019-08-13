@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2961e976-e73d-4fd8-a4fa-2ac00be41efd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/ch06_Set_and_Map/AVLMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ch06_Set_and_Map/AVLSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ch12_RBTree/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ch12_RBTree/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ch12_RBTree/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ch12_RBTree/RBTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/ch06_Set_and_Map/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ch06_Set_and_Map/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/ch11_AVLTree/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ch11_AVLTree/AVLTree.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +90,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main3">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.ch06_Set_and_Map.Main" />
       <module name="DataStructure" />
@@ -104,25 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.ch08_SegmentTree.Main" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.ch12_RBTree.Main" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.ch08_SegmentTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.ch09_Trie.Main" />
-      <module name="DataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.ch09_Trie.*" />
+          <option name="PATTERN" value="com.company.ch12_RBTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +130,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution347_with_built_in" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.ch07_Heap_and_PriorityQueue.Solution347_with_built_in" />
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.ch12_RBTree.Main2" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.ch07_Heap_and_PriorityQueue.*" />
+          <option name="PATTERN" value="com.company.ch12_RBTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.ch12_RBTree.Main3" />
+      <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.ch12_RBTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main3" />
+        <item itemvalue="Application.Main2" />
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Solution347_with_built_in" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +197,7 @@
       <workItem from="1565337439373" duration="18930000" />
       <workItem from="1565576052569" duration="19178000" />
       <workItem from="1565621847564" duration="2067000" />
-      <workItem from="1565663002233" duration="3984000" />
+      <workItem from="1565663002233" duration="10887000" />
     </task>
     <task id="LOCAL-00001" summary="完成第三章栈和队列">
       <created>1564495857299</created>
@@ -262,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565582094978</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="第十一章完成">
+      <created>1565667007534</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1565667007534</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,6 +311,7 @@
     <MESSAGE value="第七章未完待续" />
     <MESSAGE value="第九章完成" />
     <MESSAGE value="第十章完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="第十章完成" />
+    <MESSAGE value="第十一章完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="第十一章完成" />
   </component>
 </project>
