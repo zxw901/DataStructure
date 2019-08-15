@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2961e976-e73d-4fd8-a4fa-2ac00be41efd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ch13_HashTable/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ch13_HashTable/HashTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ch13_HashTable/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ch13_HashTable/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ch13_HashTable/Solution387.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ch13_HashTable/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ch13_HashTable/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ch13_HashTable/HashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ch13_HashTable/HashTable.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -203,7 +196,8 @@
       <workItem from="1565621847564" duration="2067000" />
       <workItem from="1565663002233" duration="10887000" />
       <workItem from="1565775617327" duration="11839000" />
-      <workItem from="1565835159624" duration="6084000" />
+      <workItem from="1565835159624" duration="6208000" />
+      <workItem from="1565852758474" duration="2875000" />
     </task>
     <task id="LOCAL-00001" summary="完成第三章栈和队列">
       <created>1564495857299</created>
@@ -275,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565667007534</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="第十三章未完待续">
+      <created>1565841877047</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1565841877047</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,6 +319,7 @@
     <MESSAGE value="第九章完成" />
     <MESSAGE value="第十章完成" />
     <MESSAGE value="第十一章完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="第十一章完成" />
+    <MESSAGE value="第十三章未完待续" />
+    <option name="LAST_COMMIT_MESSAGE" value="第十三章未完待续" />
   </component>
 </project>
